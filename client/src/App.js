@@ -38,7 +38,7 @@ class App extends Component {
         }
     }
 
-    stateTefresh = () => {
+    stateRefresh = () => {
         this.setState({
             customers: '',
             completed: 0

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { post } from 'axios';
 
@@ -33,8 +33,8 @@ constructor(props) {
         e.preventDefault()
         this.addCustomer()
             .then((response) => {
-            console.log(response.data);
-
+                console.log(response.data);
+                this.props.stateRefresh();
             })
         this.setState({
             file: null,
@@ -44,7 +44,6 @@ constructor(props) {
             job: '',
             fileName: ''
         })
-        window.location.reload();
     }    
 
 
