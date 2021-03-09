@@ -10,6 +10,7 @@ import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import { DialogContentText } from '@material-ui/core';
 
+
 const styles = theme => ({
     hidden: {
         display: 'none'
@@ -57,7 +58,8 @@ constructor(props) {
             birthday: '',
             gender: '',
             job: '',
-            fileName: ''
+            fileName: '',
+            open: false
         })
     }    
 
