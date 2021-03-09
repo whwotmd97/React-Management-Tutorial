@@ -23,23 +23,23 @@ class CustomerAdd extends React.Component {
 
 
 
-constructor(props) {
-    super(props);
-        this.state = {
-            file: null,
-            userName: '',
-            birthday: '',
-            gender: '',
-            job: '',
-            fileName: '',
-            open: false
+    constructor(props) {
+        super(props);
+            this.state = {
+                file: null,
+                userName: '',
+                birthday: '',
+                gender: '',
+                job: '',
+                fileName: '',
+                open: false
 
-        }
+            }
 
-        this.handleFormSubmit = this.handleFormSubmit.bind(this)
-        this.handleFileChange = this.handleFileChange.bind(this)
-        this.handleValueChange = this.handleValueChange.bind(this)
-        this.addCustomer = this.addCustomer.bind(this)
+            this.handleFormSubmit = this.handleFormSubmit.bind(this)
+            this.handleFileChange = this.handleFileChange.bind(this)
+            this.handleValueChange = this.handleValueChange.bind(this)
+            this.addCustomer = this.addCustomer.bind(this)
 
     }
 
